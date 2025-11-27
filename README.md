@@ -93,8 +93,6 @@ The project includes media queries in `css/media.css` to ensure optimal viewing 
 ## Author
 
 **Mohamed Magdy**  
-Student ID: 01229278029  
-Assignment 6
 
 ## License
 
