@@ -1,0 +1,158 @@
+@media screen and (max-width:992px) {
+    .container {
+        grid-template-areas: none;
+    }
+
+    .labs {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 20px;
+    }
+
+    .iphone {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        align-items: center;
+    }
+
+    .brands {
+        grid-column: 1/7;
+
+        grid-row: 3/4;
+        padding: 50px 0;
+    }
+
+    .games {
+        grid-column: 7/13;
+        grid-row: 3/4;
+        padding: 50px 0;
+    }
+
+    .imac {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+    }
+
+    .twitter {
+        grid-column: 1/7;
+        grid-row: 5/6;
+    }
+
+    .icloud {
+        grid-column: 7/13;
+        grid-row: 5/7;
+        padding: 40px 0;
+
+    }
+
+    .icloud p {
+        max-width: 290px;
+
+    }
+
+    .ipad {
+        grid-column: 1/7;
+        grid-row: 6/7;
+        justify-content: space-between;
+
+    }
+
+    .prop {
+        grid-column: 1/-1;
+        grid-row: 7/8;
+        padding: 40px 0;
+    }
+
+    .tv {
+        grid-column: 1/-1;
+        grid-row: 8/9;
+    }
+
+
+
+}
+
+@media screen and (max-width:440px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .labs {
+        order: 1;
+    }
+
+    .iphone {
+        order: 2;
+        flex-direction: column;
+    }
+
+    .iphone .content {
+        width: 100%;
+    }
+
+    .iphone .img-holder {
+        width: 100%;
+    }
+
+    .brands {
+        order: 3;
+    }
+
+    .games {
+        order: 4;
+    }
+
+    .imac {
+        order: 5;
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+
+    }
+ 
+
+    .imac .left {
+        width: 100%;
+    }
+
+    .imac .right {
+        width: 100%;
+    }
+
+    .twitter {
+        order: 6;
+    }
+
+    .ipad {
+        order: 7;
+    }
+
+    .ipad img {
+        width: 100%;
+    }
+
+    .icloud {
+        order: 8;
+    }
+
+    .prop {
+        order: 9;
+    }
+
+    .tv {
+        order: 10;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .tv img{
+        width: 80%;
+        transform: translatex(-20%);
+    }
+    .tv h2{
+        text-align: center;
+        width: 100%;
+    }
+}
